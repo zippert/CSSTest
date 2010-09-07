@@ -1,0 +1,41 @@
+body {
+	background-color: lightblue;
+	font-family: Arial;
+}
+
+div {
+	border: 1px solid dodgerblue;
+}
+
+div#header {
+	padding-top: 10px;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 5px;
+	
+	font-size: large;
+	text-align: center;
+	color: lightgray;
+	clear: both;
+	background: #369;
+	position: relative;
+}
+
+div#main {
+	padding-left: 1em;
+	padding-right: 1em;
+	clear: both;
+	font-size: 12px;
+	background: lightgray;
+	position: relative;
+	height: inherit;
+}
+
+div#outerborder {
+	height: 80%;
+	width: 80%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
