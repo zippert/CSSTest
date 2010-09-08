@@ -4,12 +4,24 @@
 <title>Test</title>
 <link rel='stylesheet' type='text/css' href="test.css" />
 <script type="text/javascript" src="test.js"></script>
+<script type="text/javascript" src="sha1.js"></script>
 </head>
 
-<body id="home" onload="startTimer()">
+<!--<body id="home" onload="startTimer()">-->
 
 <div id="header">Welcome!</div>
-<div id="main">Info</div>
+<div id="main">
+<form name="testForm" method="GET">
+<p class="formfont">Login:</p>
+<input type="text" name="login" size="30" />
+<br />
+<br />
+<p class="formfont">Password:</p>
+<input type="password" name="password" size="30" />
+<br />
+<br />
+<input type="submit" value="Log in" class="formfont" onclick="validate_form(this.form)"/></form>
+</div>
 
 </body>
 </html>

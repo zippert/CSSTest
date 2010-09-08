@@ -1,10 +1,22 @@
 body {
 	background-color: lightblue;
-	font-family: Arial;
+	font-family: Calibri;
 }
 
-div {
-	
+form {
+	border: 1px dashed dodgerblue;
+	padding: 1em 1em 1em 1em;
+}
+
+.formfont {
+	font-weight: bold;
+	margin: inherit;
+}
+
+/* Style used for radio button groups */
+div.rbgroup {
+	border: 1px inset dodgerblue;
+	padding: 10px 10px 10px 10px;
 }
 
 div#header {
@@ -14,8 +26,7 @@ div#header {
 	padding-left: 1em;
 	padding-right: 1em;
 	padding-bottom: 5px;
-	
-	font-size: large;
+	font-size: x-large;
 	text-align: center;
 	color: lightgray;
 	clear: both;
