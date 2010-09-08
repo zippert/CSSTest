@@ -4,10 +4,12 @@ body {
 }
 
 div {
-	border: 1px solid dodgerblue;
+	
 }
 
 div#header {
+	border: 2px solid dodgerblue;
+	margin-top: 50px;
 	padding-top: 10px;
 	padding-left: 1em;
 	padding-right: 1em;
@@ -22,20 +24,13 @@ div#header {
 }
 
 div#main {
+	border: 2px solid dodgerblue;
+	height: 25em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 	padding-left: 1em;
 	padding-right: 1em;
-	clear: both;
 	font-size: 12px;
 	background: lightgray;
 	position: relative;
-	height: inherit;
-}
-
-div#outerborder {
-	height: 80%;
-	width: 80%;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	margin-left: auto;
-	margin-right: auto;
 }
